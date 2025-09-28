@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: url('assets/bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #000000;
+}
+
+header {
+  background: rgb(228, 122, 8);
+  color: rgb(0, 0, 0);
+  padding: 20px 40px;
+  text-align: center;
+}
+
+header img.logo {
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+nav a {
+  margin: 0 15px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding: 40px;
+  max-width: 1000px;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+}
+
+h2 {
+  color: #ff0000;
+}
+
+.services, .team {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgb(30, 108, 224);
+  flex: 1;
+  min-width: 250px;
+  text-align: center;
+}
+
+.card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+form input, form textarea, form button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  background: #2e86ea;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  background: rgb(31, 120, 230);
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
